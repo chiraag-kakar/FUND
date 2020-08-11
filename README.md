@@ -44,7 +44,6 @@ pip install numpy pandas sklearn
 
 ---
 The TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features.
----
 
 
 **PassiveAggressiveClassifier**
