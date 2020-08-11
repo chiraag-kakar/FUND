@@ -6,7 +6,7 @@ This is often done to further or impose certain ideas and is often achieved with
 Such news items may contain false and/or exaggerated claims, and may end up being viralized by algorithms, and users may end up in a filter bubble.
 
 # Data
-The dataset *news.csv* is political in nature , has a shape of 7796 x 4.
+The dataset [news.csv](https://github.com/chiraag-kakar/FUND/blob/master/news.csv) is political in nature , has a shape of 7796 x 4.
 The first column identifies the news, the second and third are the title and text, and the fourth column has labels denoting whether the news is REAL or FAKE.
 
 While the actual [Kaggle Data](https://www.kaggle.com/c/fake-news/data) has the following description:
@@ -28,7 +28,7 @@ To get the copy of the project up and running on the local machine for developme
 numpy , pandas and sklearn.
 
 
-```
+```shell
 pip install numpy pandas sklearn
 
 ```
