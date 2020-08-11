@@ -9,7 +9,7 @@ Such news items may contain false and/or exaggerated claims, and may end up bein
 The dataset *news.csv* is political in nature , has a shape of 7796 x 4.
 The first column identifies the news, the second and third are the title and text, and the fourth column has labels denoting whether the news is REAL or FAKE.
 
-While the actual Kaggle Data(https://www.kaggle.com/c/fake-news/data) has the following description:
+While the actual [Kaggle Data](https://www.kaggle.com/c/fake-news/data) has the following description:
 
 #### train.csv : A full training dataset with the following attributes:
 
@@ -36,12 +36,15 @@ pip install numpy pandas sklearn
 ## Dependencies Explained:
 
 **TfidfVectorizer**
-TF (Term Frequency): The number of times a word appears in a document is its Term Frequency. A higher value means a term appears more often than others, and so, the document is a good match when the term is part of the search terms.
 
-IDF (Inverse Document Frequency): Words that occur many times a document, but also occur many times in many others, may be irrelevant. IDF is a measure of how significant a term is in the entire corpus.
 
+**TF** (Term Frequency): The number of times a word appears in a document is its Term Frequency. A higher value means a term appears more often than others, and so, the document is a good match when the term is part of the search terms.
+
+**IDF** (Inverse Document Frequency): Words that occur many times a document, but also occur many times in many others, may be irrelevant. IDF is a measure of how significant a term is in the entire corpus.
+
+---
 The TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features.
-
+---
 
 
 **PassiveAggressiveClassifier**
